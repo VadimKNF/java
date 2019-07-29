@@ -10,10 +10,11 @@ public class arrays {
         array(x, y);
 
     }
+    //метод который генерит и заполняет массив рандомными значениями, а потом выводит все числа кратные 3
     public static void array(int a, int b){
         int[] mainArray = new int[100];
         for(int i = 0; i < 100; i++){
-            mainArray[i] = a + (int)(Math.random() * b); //a always 0, b get from Scanner
+            mainArray[i] = a + (int)(Math.random() * b); //a always 0, b get from Scanner, в любой момент можно переделать под конструкцию без константы
             //System.out.println(mainArray[i]);
             if(mainArray[i] % 3 == 0 && mainArray[i] > 0){
                 System.out.println(mainArray[i]);
@@ -25,6 +26,7 @@ public class arrays {
 
 
         }
+        //метод, который определяет является ли элемент массива простым числом
     public static boolean isPrime(int num){
         if(num <= 2) return false;
         if(num % 2 == 0) return false;
