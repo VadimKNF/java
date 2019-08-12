@@ -1,6 +1,6 @@
-lr02/.idea
-lr02/out
-lr02/src/META-INF
-lr02/src
+/lr02/.idea
+/lr02/out
+/lr02/src/META-INF
+/lr02/src
 !lr02/src/**/*.java
-lr02/lr02.iml
+/lr02/lr02.iml
